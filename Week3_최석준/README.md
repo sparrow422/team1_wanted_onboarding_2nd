@@ -6,7 +6,7 @@
   * COUNT 예측 모델링
 
 ## 📊 EDA
- * 전체 컬럼의 의미 파악
+ * **전체 컬럼의 의미 파악**
   - 전체 컬럼은 USER_ID, JOIN_DATE, D_TYPE, STORE_ID, GOODS_TYPE, DATE, COUNT, AD1
   - 여기서 쉽게 추론이 가능한 항목은 USER_ID, JOIN_DATE, STORE_ID, DATE이며 각각 사용자 ID, 가입날짜, 주차장 ID, 결제 날짜이다.
   - D_TYPE은 의미는 정확히 알 수 없으나 AA, BB와 달리 CC는 높은 COUNT값을 가지고 있다. 따라서 기간권 사용자이거나 VIP 유저등을 나타낸다고 생각된다.
